@@ -92,7 +92,7 @@ noremap <leader>gs :G status <CR>
 noremap <leader>gg :G 
 noremap <leader>gl :G log<CR>
 noremap <leader>gpS :G push origin 
-noremap <leader>gps:G push origin main <CR> 
+noremap <leader>gps :G push origin main <CR> 
 
 " FZF
 
