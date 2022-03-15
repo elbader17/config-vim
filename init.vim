@@ -86,6 +86,7 @@ noremap <leader>gC  ga:G commit -m ""<Left>
 noremap <leader>gb :G branch<CR>
 noremap <leader>gf :G fetch<CR>
 noremap <leader>gm :G merge<CR>
+noremap <leader>gd :G diff<CR>
 noremap <leader>gpl :G pull origin  
 noremap <leader>gpll :G pull origin main <CR> 
 noremap <leader>gs :G status <CR>
