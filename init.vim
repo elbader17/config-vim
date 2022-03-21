@@ -18,6 +18,7 @@ set encoding=utf-8
 set cursorline
 set termguicolors
 set ignorecase
+let NERDTreeShowHidden=1
 "plugins
 call plug#begin('~/.local/share/nvim/plugged')
 
