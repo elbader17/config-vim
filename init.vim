@@ -39,6 +39,7 @@ Plug 'tpope/vim-fugitive'
 Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
+Plug 'Rigellute/rigel'
 call plug#end()
 
 "Theme
@@ -54,9 +55,14 @@ call plug#end()
 "colorscheme aquarium
 "set background=dark
 
-let g:oceanic_next_terminal_bold = 1
-let g:oceanic_next_terminal_italic = 1
-colorscheme OceanicNext
+" let g:oceanic_next_terminal_bold = 1
+" let g:oceanic_next_terminal_italic = 1
+" colorscheme OceanicNext
+
+set termguicolors
+syntax enable
+colorscheme rigel
+
 
 
 "config
