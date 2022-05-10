@@ -41,6 +41,8 @@ Plug 'junegunn/fzf', { 'do': { -> fzf#install() } }
 Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'Rigellute/rigel'
+Plug 'connorholyday/vim-snazzy'
+
 call plug#end()
 
 "Theme
@@ -60,10 +62,14 @@ call plug#end()
 " let g:oceanic_next_terminal_italic = 1
 " colorscheme OceanicNext
 
-set termguicolors
-syntax enable
-colorscheme rigel
+" set termguicolors
+" syntax enable
+" colorscheme rigel
 
+" set termguicolors
+" colorscheme bat
+
+colorscheme snazzy
 
 
 "config
@@ -107,3 +113,8 @@ noremap <leader>gps :G push origin main <CR>
 
 noremap <leader>ff :Files <CR>
 noremap <leader>fF :Files! <CR>
+
+" HTML5
+
+noremap <leader>tp o<p></p><C-c><Left><Left><Left>
+noremap <leader>td o<div class=""></div><C-c><Left><Left><Left><Left><Left>
