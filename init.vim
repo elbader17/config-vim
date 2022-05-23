@@ -118,3 +118,8 @@ noremap <leader>fF :Files! <CR>
 
 noremap <leader>tp o<p></p><C-c><Left><Left><Left>
 noremap <leader>td o<div class=""></div><C-c><Left><Left><Left><Left><Left>
+
+" Copilot
+
+noremap <leader>cp :Copilot panel<CR>
+
