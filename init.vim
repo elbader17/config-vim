@@ -42,6 +42,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'airblade/vim-gitgutter'
 Plug 'Rigellute/rigel'
 Plug 'connorholyday/vim-snazzy'
+Plug 'zacanger/angr.vim'
 
 call plug#end()
 
@@ -69,8 +70,10 @@ call plug#end()
 " set termguicolors
 " colorscheme bat
 
-colorscheme snazzy
+" colorscheme snazzy
 
+set background=dark
+colorscheme angr
 
 "config
 let mapleader = " "
