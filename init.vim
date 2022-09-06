@@ -129,4 +129,4 @@ noremap <leader>cp :Copilot panel<CR>
 
 " debug
 
-noremap <leader>d odebuger<C-c>
+noremap <leader>d odebugger<C-c>
