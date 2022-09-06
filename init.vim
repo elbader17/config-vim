@@ -43,6 +43,7 @@ Plug 'airblade/vim-gitgutter'
 Plug 'Rigellute/rigel'
 Plug 'connorholyday/vim-snazzy'
 Plug 'zacanger/angr.vim'
+Plug 'eslint/eslint'
 
 call plug#end()
 
@@ -126,3 +127,6 @@ noremap <leader>td o<div class=""></div><C-c><Left><Left><Left><Left><Left>
 
 noremap <leader>cp :Copilot panel<CR>
 
+" debug
+
+noremap <leader>d odebuger<C-c>
